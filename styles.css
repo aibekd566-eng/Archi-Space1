@@ -3392,3 +3392,67 @@ img[loading] {
     }
 
 }
+/* ===== MOBILE FIX: theme toggle + floating phone ===== */
+@media (max-width: 768px) {
+    .theme-toggle {
+        top: 118px !important;
+        right: 10px !important;
+        z-index: 1201 !important;
+    }
+
+    .theme-toggle-track {
+        width: 56px !important;
+        height: 30px !important;
+    }
+
+    .theme-toggle-thumb {
+        width: 22px !important;
+        height: 22px !important;
+    }
+
+    .theme-toggle.active .theme-toggle-thumb {
+        transform: translateX(26px) !important;
+    }
+
+    .floating-contact {
+        right: 10px !important;
+        bottom: 110px !important;
+        z-index: 1201 !important;
+    }
+
+    .floating-contact-link,
+    .floating-contact-toggle {
+        width: 54px !important;
+        height: 54px !important;
+    }
+
+    .floating-contact-link svg,
+    .toggle-phone-icon {
+        width: 22px !important;
+        height: 22px !important;
+    }
+}
+
+@media (max-width: 430px) {
+    .theme-toggle {
+        top: 122px !important;
+        right: 8px !important;
+    }
+
+    .floating-contact {
+        right: 8px !important;
+        bottom: 118px !important;
+    }
+}
+
+@media (max-width: 390px) {
+    .theme-toggle {
+        top: 126px !important;
+        right: 6px !important;
+    }
+
+    .floating-contact {
+        right: 6px !important;
+        bottom: 124px !important;
+    }
+}
