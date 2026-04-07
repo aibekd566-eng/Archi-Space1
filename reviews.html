@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Все отзывы | ARCHISPACE</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .reviews-page {
+            min-height: 100vh;
+            padding: 140px 60px 80px;
+            background: var(--color-bg-primary);
+        }
+
+        .reviews-page-header {
+            max-width: 900px;
+            margin: 0 auto 50px;
+            text-align: center;
+        }
+
+        .reviews-page-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 56px;
+            margin-bottom: 12px;
+            color: var(--color-text-primary);
+        }
+
+        .reviews-page-subtitle {
+            color: var(--color-text-muted);
+            font-size: 18px;
+        }
+
+        .reviews-page-topbar {
+            max-width: 1400px;
+            margin: 0 auto 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .reviews-back-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            padding: 14px 22px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, #0d7377, #14a3a8);
+            color: #fff;
+            font-weight: 600;
+            box-shadow: 0 12px 28px rgba(13, 115, 119, 0.22);
+        }
+
+        .reviews-page-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+
+        .reviews-page-actions {
+            max-width: 1400px;
+            margin: 28px auto 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .reviews-page-empty {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 28px;
+            border-radius: 20px;
+            background: var(--color-bg-secondary);
+            color: var(--color-text-muted);
+            box-shadow: var(--shadow-soft);
+        }
+
+        @media (max-width: 992px) {
+            .reviews-page {
+                padding: 120px 30px 70px;
+            }
+
+            .reviews-page-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .reviews-page-title {
+                font-size: 42px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .reviews-page {
+                padding: 110px 20px 60px;
+            }
+
+            .reviews-page-title {
+                font-size: 34px;
+            }
+
+            .reviews-page-subtitle {
+                font-size: 15px;
+            }
+
+            .reviews-back-btn,
+            .reviews-more-btn {
+                width: 100%;
+            }
+
+            .reviews-page-topbar {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar scrolled" id="navbar">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="ARCHISPACE">
+            <div class="logo-text">
+                <span class="logo-title">ARCHISPACE</span>
+                <span class="logo-subtitle">Студия дизайна интерьера</span>
+            </div>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="index.html#about">О студии</a></li>
+            <li><a href="index.html#services">Услуги</a></li>
+            <li><a href="index.html#portfolio">Портфолио</a></li>
+            <li><a href="index.html#process">Этапы</a></li>
+            <li><a href="index.html#contact" class="nav-cta">Консультация</a></li>
+        </ul>
+    </nav>
+
+    <main class="reviews-page">
+        <div class="reviews-page-header">
+            <h1 class="reviews-page-title">Все отзывы</h1>
+            <p class="reviews-page-subtitle">Реальные впечатления клиентов о работе с ARCHISPACE</p>
+        </div>
+
+        <div class="reviews-page-topbar">
+            <a href="index.html#reviews" class="reviews-back-btn">← Назад к сайту</a>
+        </div>
+
+        <div class="reviews-page-grid" id="allReviewsList">
+            <div class="reviews-page-empty">Загрузка отзывов...</div>
+        </div>
+
+        <div class="reviews-page-actions">
+            <button type="button" class="reviews-more-btn" id="loadAllReviewsBtn">
+                Показать ещё
+            </button>
+        </div>
+    </main>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.7.3/firebase-app.js";
+        import {
+            getFirestore,
+            collection,
+            query,
+            orderBy,
+            limit,
+            startAfter,
+            getDocs
+        } from "https://www.gstatic.com/firebasejs/11.7.3/firebase-firestore.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCV3JL-5Z9w1H3xS-tfkMGZArTthXP8CDo",
+            authDomain: "archispace2024-16cff.firebaseapp.com",
+            projectId: "archispace2024-16cff",
+            storageBucket: "archispace2024-16cff.firebasestorage.app",
+            messagingSenderId: "707638942739",
+            appId: "1:707638942739:web:3d5ddeed92a29f3c5c73e6",
+            measurementId: "G-1H1TFS07JS"
+        };
+
+        const firebaseApp = initializeApp(firebaseConfig);
+        const db = getFirestore(firebaseApp);
+        const reviewsCollection = collection(db, "reviews");
+
+        const allReviewsList = document.getElementById("allReviewsList");
+        const loadAllReviewsBtn = document.getElementById("loadAllReviewsBtn");
+
+        const PAGE_SIZE = 6;
+        let lastVisibleReviewDoc = null;
+        let hasMore = true;
+        let isLoading = false;
+        let reviewsCache = [];
+
+        function getStars(rating) {
+            return "★".repeat(rating) + "☆".repeat(5 - rating);
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement("div");
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function formatReviewDate(value) {
+            if (!value) return "Недавно";
+
+            try {
+                const date = value.toDate ? value.toDate() : new Date(value);
+                return new Intl.DateTimeFormat("ru-RU", {
+                    day: "2-digit",
+                    month: "2-digit",
+                    year: "numeric"
+                }).format(date);
+            } catch {
+                return "Недавно";
+            }
+        }
+
+        function createReviewCard(review) {
+            return `
+                <div class="review-card">
+                    <div class="review-head">
+                        <div>
+                            <h3 class="review-name">${escapeHtml(review.name)}</h3>
+                            <span class="review-date">${escapeHtml(formatReviewDate(review.createdAt))}</span>
+                        </div>
+                        <div class="review-rating">${getStars(Number(review.rating))}</div>
+                    </div>
+                    <p class="review-text">${escapeHtml(review.text)}</p>
+                </div>
+            `;
+        }
+
+        function renderAllReviews() {
+            if (!reviewsCache.length) {
+                allReviewsList.innerHTML = `<div class="reviews-page-empty">Пока отзывов нет.</div>`;
+                return;
+            }
+
+            allReviewsList.innerHTML = reviewsCache.map(createReviewCard).join("");
+        }
+
+        function updateLoadButton() {
+            if (!loadAllReviewsBtn) return;
+
+            if (!hasMore) {
+                loadAllReviewsBtn.style.display = "none";
+                return;
+            }
+
+            loadAllReviewsBtn.style.display = "inline-flex";
+            loadAllReviewsBtn.disabled = isLoading;
+            loadAllReviewsBtn.textContent = isLoading ? "Загрузка..." : "Показать ещё";
+        }
+
+        async function loadInitialReviews() {
+            try {
+                const reviewsQuery = query(
+                    reviewsCollection,
+                    orderBy("createdAt", "desc"),
+                    limit(PAGE_SIZE)
+                );
+
+                const snapshot = await getDocs(reviewsQuery);
+
+                reviewsCache = snapshot.docs.map(doc => ({
+                    id: doc.id,
+                    ...doc.data()
+                }));
+
+                lastVisibleReviewDoc = snapshot.docs.length
+                    ? snapshot.docs[snapshot.docs.length - 1]
+                    : null;
+
+                hasMore = snapshot.docs.length === PAGE_SIZE;
+
+                renderAllReviews();
+                updateLoadButton();
+            } catch (error) {
+                console.error("Ошибка загрузки всех отзывов:", error);
+                allReviewsList.innerHTML = `<div class="reviews-page-empty">Не удалось загрузить отзывы.</div>`;
+            }
+        }
+
+        async function loadMoreReviews() {
+            if (!hasMore || !lastVisibleReviewDoc || isLoading) return;
+
+            isLoading = true;
+            updateLoadButton();
+
+            try {
+                const nextQuery = query(
+                    reviewsCollection,
+                    orderBy("createdAt", "desc"),
+                    startAfter(lastVisibleReviewDoc),
+                    limit(PAGE_SIZE)
+                );
+
+                const snapshot = await getDocs(nextQuery);
+
+                const nextReviews = snapshot.docs.map(doc => ({
+                    id: doc.id,
+                    ...doc.data()
+                }));
+
+                reviewsCache = [...reviewsCache, ...nextReviews];
+
+                lastVisibleReviewDoc = snapshot.docs.length
+                    ? snapshot.docs[snapshot.docs.length - 1]
+                    : lastVisibleReviewDoc;
+
+                hasMore = snapshot.docs.length === PAGE_SIZE;
+
+                renderAllReviews();
+            } catch (error) {
+                console.error("Ошибка подгрузки отзывов:", error);
+            } finally {
+                isLoading = false;
+                updateLoadButton();
+            }
+        }
+
+        if (loadAllReviewsBtn) {
+            loadAllReviewsBtn.addEventListener("click", loadMoreReviews);
+        }
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            await loadInitialReviews();
+        });
+    </script>
+</body>
+</html>
