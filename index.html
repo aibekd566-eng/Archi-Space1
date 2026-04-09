@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCHISPACE | Дизайн интерьера премиум класса</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <div class="theme-toggle-track">
+            <div class="theme-toggle-thumb">
+                <span class="theme-icon light">☀️</span>
+                <span class="theme-icon dark">🌙</span>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="ARCHISPACE">
+            <div class="logo-text">
+                <span class="logo-title">ARCHISPACE</span>
+                <span class="logo-subtitle">Студия дизайна интерьера</span>
+            </div>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#about" data-i18n="navAbout">О студии</a></li>
+            <li><a href="#services" data-i18n="navServices">Услуги</a></li>
+            <li><a href="#portfolio" data-i18n="navPortfolio">Портфолио</a></li>
+            <li><a href="#process" data-i18n="navProcess">Этапы</a></li>
+            <li><a href="#contact" class="nav-cta" data-i18n="navContact">Консультация</a></li>
+        </ul>
+
+        <div class="mobile-menu-btn" id="mobileMenuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="images/hero-interior.jpg" alt="Luxury Interior">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-container">
+
+            <div class="hero-content">
+
+                <div class="hero-label" data-i18n="heroLabel">
+                    Премиум дизайн интерьера
+                </div>
+
+                <h1 data-i18n="heroTitle">
+                    Создаём пространства <br><span>для жизни мечты</span>
+                </h1>
+
+                <p class="hero-description" data-i18n="heroDesc">
+                    Полный цикл услуг по дизайну интерьера жилых и коммерческих помещений.
+                    От концепции до реализации — создаём уникальные пространства.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary" data-i18n="btnProjects">
+                        Смотреть проекты
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary" data-i18n="btnConsult">
+                        Бесплатная консультация
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p data-i18n="statYears">лет опыта</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>200+</h3>
+                        <p data-i18n="statProjects">проектов</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>200+</h3>
+                        <p data-i18n="statClients">клиентов</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="section-header reveal">
+            <span class="section-label" data-i18n="servicesLabel">Услуги</span>
+            <h2 class="section-title" data-i18n="servicesTitle">Комплексный подход к дизайну</h2>
+            <p class="section-subtitle" data-i18n="servicesSubtitle">
+                От первой встречи до финальной реализации — мы сопровождаем вас на каждом этапе создания идеального
+                интерьера
+            </p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="service-image">
+                    <img src="images/service-1.jpg" alt="Interior Design">
+                </div>
+                <div class="service-content">
+                    <span class="service-number">01</span>
+                    <h3 data-i18n="service1Title">Состав дизайн-проекта</h3>
+                    <p data-i18n="service1Text">
+                        Вы получите полный комплект дизайн проекта со всеми частями в бумажном и электронном виде
+                    </p>
+                    <ul class="service-list">
+                        <li>Замеры объекта</li>
+                        <li>Планировочные решения</li>
+                        <li>3D-визуализация</li>
+                        <li>Рабочие чертежи</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card reveal">
+
+                <div class="service-image">
+                    <img src="images/service-2.jpg" alt="Author Supervision">
+                </div>
+                <div class="service-content">
+                    <span class="service-number">02</span>
+                    <h3 data-i18n="service2Title">Авторский надзор</h3>
+                    <p data-i18n="service2Text">
+                        Контроль соответствия строительных работ проектной документации.
+                        Регулярные выезды на объект и взаимодействие с подрядчиками.
+                    </p>
+
+                    <ul class="service-list">
+                        <li>Выезды на объект</li>
+                        <li>Приёмка работ</li>
+                        <li>Корректировки</li>
+                        <li>Фотоотчёты</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-image">
+                    <img src="images/service-3.jpg" alt="Furniture">
+                </div>
+                <div class="service-content">
+                    <span class="service-number">03</span>
+                    <h3 data-i18n="service3Title">Комплектация объекта</h3>
+                    <p data-i18n="service3Text">
+                        Подбор и закупка мебели, сантехники, света, отделочных материалов. Работа с проверенными
+                        поставщиками и скидки до 10%.
+                    </p>
+                    <ul class="service-list">
+                        <li>Подбор материалов</li>
+                        <li>Закупка мебели</li>
+                        <li>Доставка и сборка</li>
+                        <li>Гарантия качества</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-image">
+                    <img src="images/service-4.jpg" alt="Commercial">
+                </div>
+                <div class="service-content">
+                    <span class="service-number">04</span>
+                    <h3 data-i18n="service4Title">Коммерческие интерьеры</h3>
+                    <p data-i18n="service4Text">
+                        Дизайн офисов, ресторанов, отелей и магазинов. Создаём пространства, которые работают на имидж и
+                        прибыль вашего бизнеса.
+                    </p>
+                    <ul class="service-list">
+                        <li>Офисы</li>
+                        <li>Рестораны и кафе</li>
+                        <li>Отели</li>
+                        <li>Ритейл</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="section-header reveal">
+            <span class="section-label" data-i18n="portfolioLabel">Портфолио</span>
+            <h2 class="section-title" data-i18n="portfolioTitle">Реализованные проекты</h2>
+            <p class="section-subtitle" data-i18n="portfolioSubtitle">
+                Каждый проект — это уникальная история, воплощённая в пространстве
+            </p>
+        </div>
+
+        <div class="portfolio-filter reveal">
+            <button class="filter-btn active" data-filter="all">Все проекты</button>
+            <button class="filter-btn" data-filter="living">Кухня-гостиная</button>
+            <button class="filter-btn" data-filter="bathroom">Санузлы</button>
+            <button class="filter-btn" data-filter="bedroom">Спальни</button>
+            <button class="filter-btn" data-filter="hallway">Прихожие</button>
+            <button class="filter-btn" data-filter="kids">Детская</button>
+            <button class="filter-btn" data-filter="before-after">До / После</button>
+        </div>
+
+        <div class="portfolio-grid">
+    <div class="portfolio-item reveal before-after-card" data-category="before-after"
+        data-videos='["portfolio/videos/IMG_1488.mp4","portfolio/videos/IMG_1489.mp4"]'>
+        <img class="portfolio-cover-image" src="images/before-after-poster.jpg" alt="До и после">
+
+        <div class="portfolio-overlay">
+            <span class="portfolio-category">До / После</span>
+            <h3 class="portfolio-title">Ремонт до и после</h3>
+            <span class="portfolio-btn">Смотреть видео →</span>
+        </div>
+    </div>
+
+    <a href="portfolio-living.html" class="portfolio-item reveal" data-category="living">
+        <img src="portfolio/kitchen-living/GostKitchen_View06.jpg" alt="Kitchen Living">
+        <div class="portfolio-overlay">
+            <span class="portfolio-category">Кухня-гостиная</span>
+            <h3 class="portfolio-title">Kitchen Living Interior</h3>
+            <span class="portfolio-btn">Смотреть проект →</span>
+        </div>
+    </a>
+
+    <a href="portfolio-bathroom.html" class="portfolio-item reveal" data-category="bathroom">
+        <img src="portfolio/bathroom/duw01.jpg" alt="Bathroom">
+        <div class="portfolio-overlay">
+            <span class="portfolio-category">Санузлы</span>
+            <h3 class="portfolio-title">Bathroom Interior</h3>
+            <span class="portfolio-btn">Смотреть проект →</span>
+        </div>
+    </a>
+
+    <a href="portfolio-bedroom.html" class="portfolio-item reveal" data-category="bedroom">
+        <img src="portfolio/Bedroom/Bedroom_View02.jpg" alt="Bedroom">
+        <div class="portfolio-overlay">
+            <span class="portfolio-category">Спальни</span>
+            <h3 class="portfolio-title">Modern Bedroom</h3>
+            <span class="portfolio-btn">Смотреть проект →</span>
+        </div>
+    </a>
+
+    <a href="portfolio-hallway.html" class="portfolio-item reveal" data-category="hallway">
+        <img src="portfolio/Hallway/Hallway_View01.jpg" alt="Hallway">
+        <div class="portfolio-overlay">
+            <span class="portfolio-category">Прихожие</span>
+            <h3 class="portfolio-title">Entrance Hall</h3>
+            <span class="portfolio-btn">Смотреть проект →</span>
+        </div>
+    </a>
+
+    <a href="portfolio-kids.html" class="portfolio-item reveal" data-category="kids">
+        <img src="portfolio/kids/Childroom_View01.jpg" alt="Детская">
+        <div class="portfolio-overlay">
+            <span class="portfolio-category">Детская</span>
+            <h3 class="portfolio-title">Children Room Concept</h3>
+            <span class="portfolio-btn">Смотреть проект →</span>
+        </div>
+    </a>
+</div>
+    </section>
+
+    <section class="process" id="process">
+        <div class="section-header reveal">
+            <span class="section-label" data-i18n="processLabel">Процесс</span>
+            <h2 class="section-title" data-i18n="processTitle">Как мы работаем</h2>
+            <p class="section-subtitle" data-i18n="processSubtitle">
+                Прозрачный и понятный процесс от первой встречи до заселения
+            </p>
+        </div>
+
+        <div class="process-container">
+            <div class="process-line"></div>
+
+            <div class="process-steps">
+                <div class="process-step reveal">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-image">
+                            <img src="images/consultation.jpg" alt="Consultation">
+                        </div>
+                        <h4 data-i18n="step1Title">Встреча и консультация</h4>
+                        <p data-i18n="step1Text">Знакомимся, обсуждаем ваши пожелания, бюджет и сроки. Проводим
+                            бесплатную консультацию.</p>
+                        <ul class="step-list">
+                            <li>Обсуждение концепции</li>
+                            <li>Оценка объекта</li>
+                            <li>Предварительный бюджет</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-image">
+                            <img src="images/planning.jpg" alt="Planning">
+                        </div>
+                        <h4 data-i18n="step2Title">Планировочное решение</h4>
+                        <p data-i18n="step2Text">Разрабатываем 2-3 варианта планировки с расстановкой мебели и
+                            зонированием пространства.</p>
+                        <ul class="step-list">
+                            <li>Обмеры помещения</li>
+                            <li>Варианты планировок</li>
+                            <li>3D-визуализация</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-image">
+                            <img src="images/design-project.jpg" alt="Design">
+                        </div>
+                        <h4 data-i18n="step3Title">Дизайн-проект</h4>
+                        <p data-i18n="step3Text">Создаём полный комплект документации: чертежи, визуализации,
+                            спецификации материалов.</p>
+                        <ul class="step-list">
+                            <li>Рабочие чертежи</li>
+                            <li>3D-визуализации</li>
+                            <li>Спецификации</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-image">
+                            <img src="images/implementation.jpg" alt="Realization">
+                        </div>
+                        <h4 data-i18n="step4Title">Реализация</h4>
+                        <p data-i18n="step4Text">Авторский надзор, комплектация и контроль ремонтных работ до финального
+                            результата.</p>
+                        <ul class="step-list">
+                            <li>Авторский надзор</li>
+                            <li>Комплектация</li>
+                            <li>Сдача объекта</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-grid">
+                <div class="about-images reveal">
+                    <div class="about-image-main">
+
+                        <img src="director.jpeg" alt="Мадина">
+
+                        <div class="director-overlay">
+                            <span class="director-role">Исполнительный директор</span>
+                            <p class="director-desc">
+                                Мустанкулова Мадина
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="about-content reveal">
+                    <span class="section-label" data-i18n="aboutLabel">О студии</span>
+                    <h2 class="section-title" data-i18n="aboutTitle">ARCHISPACE</h2>
+                    <p class="about-text" data-i18n="aboutText1">
+                        Мы — команда профессиональных дизайнеров интерьера, объединённых общей идеей: создавать
+                        пространства, в которых хочется жить.
+                        За 8 лет работы мы реализовали более 200 проектов различной сложности — от небольших квартир до
+                        премиальных загородных домов.
+                    </p>
+                    <p class="about-text" data-i18n="aboutText2">
+                        Наш подход основан на глубоком понимании потребностей клиента, современных трендах дизайна и
+                        безупречном качестве исполнения.
+                        Мы не просто создаём красивые интерьеры — мы проектируем пространства, которые работают на
+                        комфорт и гармонию вашей жизни.
+                    </p>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">✦</div>
+                            <div>
+                                <h4 data-i18n="feature1Title">Индивидуальный подход</h4>
+                                <p data-i18n="feature1Text">Каждый проект уникален и создаётся под ваш образ жизни</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">◈</div>
+                            <div>
+                                <h4 data-i18n="feature2Title">Полный цикл</h4>
+                                <p data-i18n="feature2Text">От идеи до реализации — берём все заботы на себя</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">◎</div>
+                            <div>
+                                <h4 data-i18n="feature3Title">Гарантия качества</h4>
+                                <p data-i18n="feature3Text">Работаем только с проверенными поставщиками и подрядчиками
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">⚡</div>
+                            <div>
+                                <h4 data-i18n="feature4Title">Соблюдение сроков</h4>
+                                <p data-i18n="feature4Text">Чёткое планирование и контроль на каждом этапе</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <div class="section-header reveal">
+            <span class="section-label">Отзывы</span>
+            <h2 class="section-title">Что говорят клиенты</h2>
+            <p class="section-subtitle">
+                Реальные впечатления о работе с ARCHISPACE
+            </p>
+        </div>
+
+        <div class="reviews-container">
+            <div>
+                <div class="reviews-list reveal" id="reviewsList"></div>
+
+                <div class="reviews-actions reveal">
+                    <a href="reviews.html" class="reviews-more-btn" id="loadMoreReviewsBtn">
+                        Показать ещё
+                    </a>
+                </div>
+            </div>
+
+            <form class="review-form reveal" id="reviewForm">
+                <h3>Оставить отзыв</h3>
+
+                <div class="form-group">
+                    <label for="reviewName">Ваше имя</label>
+                    <input type="text" id="reviewName" placeholder="Например: Алина" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reviewRating">Оценка</label>
+                    <select id="reviewRating" required>
+                        <option value="5">5 — Отлично</option>
+                        <option value="4">4 — Хорошо</option>
+                        <option value="3">3 — Нормально</option>
+                        <option value="2">2 — Слабо</option>
+                        <option value="1">1 — Плохо</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="reviewText">Ваш отзыв</label>
+                    <textarea id="reviewText" rows="5" placeholder="Напишите ваш отзыв..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Отправить отзыв</button>
+                <p class="form-note">Отзыв будет опубликован на сайте</p>
+            </form>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-bg">
+            <img src="images/sofa.jpg" alt="Interior">
+            <div class="contact-overlay"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-content reveal">
+                <span class="section-label light" data-i18n="contactLabel">Контакты</span>
+                <h2 class="section-title light" data-i18n="contactTitle">Начните свой проект сегодня</h2>
+                <p class="section-subtitle light" data-i18n="contactSubtitle">
+                    Оставьте заявку на бесплатную консультацию, и мы свяжемся с вами в течение 24 часов
+                </p>
+
+                <div class="contact-info-block">
+                    <div class="contact-item"></div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <strong data-i18n="phoneLabel">Телефон</strong>
+                            <span>+996 552 886 066</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <strong data-i18n="emailLabel">Email</strong>
+                            <span>arhdesign.2024@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.instagram.com/archi_space2024/" target="_blank" class="social-link"
+                        title="Instagram">IG</a>
+                    <a href="https://t.me/+996779519331" target="_blank" class="social-link" title="Telegram">TG</a>
+                    <a href="https://wa.me/996552886066" target="_blank" class="social-link" title="WhatsApp">WA</a>
+                    <a href="mailto:arhdesign.2024@gmail.com" class="social-link" title="Email">✉️</a>
+                </div>
+            </div>
+
+            <form class="contact-form reveal" id="contactForm">
+                <h3 data-i18n="formTitle">Получить консультацию</h3>
+                <div class="form-group">
+                    <label for="name" data-i18n="formName">Ваше имя</label>
+                    <input type="text" id="name" placeholder="Как к вам обращаться?" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone" data-i18n="formPhone">Телефон</label>
+                    <input type="tel" id="phone" placeholder="+996(___) __-__-__" required>
+                </div>
+                <div class="form-group">
+                    <label for="room" data-i18n="formRoom">Тип помещения</label>
+
+                    <div class="custom-select" id="roomSelect">
+                        <input type="hidden" id="room" name="room" required>
+
+                        <button type="button" class="custom-select-trigger">
+                            <span class="custom-select-value">Выберите тип</span>
+                            <span class="custom-select-arrow"></span>
+                        </button>
+
+                        <div class="custom-select-dropdown">
+                            <div class="custom-select-option active" data-value="">Выберите тип</div>
+                            <div class="custom-select-option" data-value="apartment">Квартира</div>
+                            <div class="custom-select-option" data-value="house">Дом</div>
+                            <div class="custom-select-option" data-value="office">Офис</div>
+                            <div class="custom-select-option" data-value="commercial">Коммерческое</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="formMessage">О проекте</label>
+                    <textarea id="message" rows="3" placeholder="Расскажите о вашем проекте..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn" data-i18n="formSubmit">Отправить заявку</button>
+                <p class="form-note" data-i18n="formNote">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="ARCHISPACE">
+                    <span class="logo-text">ARCHISPACE</span>
+                </div>
+                <p class="footer-desc">Премиальный дизайн интерьера для тех, кто ценит качество и стиль</p>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Навигация</h4>
+                    <a href="#about" data-i18n="footerAbout">О студии</a>
+                    <a href="#services" data-i18n="footerServices">Услуги</a>
+                    <a href="#portfolio" data-i18n="footerPortfolio">Портфолио</a>
+                    <a href="#contact" data-i18n="footerContact">Контакты</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Услуги</h4>
+                    <a href="#services">Дизайн-проект</a>
+                    <a href="#services">Авторский надзор</a>
+                    <a href="#services">Комплектация</a>
+                    <a href="#services">Коммерческие интерьеры</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Контакты</h4>
+                    <p>+996 552 886 066</p>
+                    <p>arhdesign.2024@gmail.com</p>
+                    <p>Бишкек, Кыргызстан</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>© 2024 ARCHISPACE. <span data-i18n="footerRights">Все права защищены.</span></div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/archi_space2024/" target="_blank">Instagram</a>
+                <a href="https://t.me/+996779519331" target="_blank">Telegram</a>
+                <a href="https://wa.me/996552886066" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="luxe-gallery" id="luxeGallery" aria-hidden="true">
+        <div class="luxe-gallery__backdrop" data-luxe-close></div>
+
+        <div class="luxe-gallery__shell" role="dialog" aria-modal="true" aria-label="Галерея проекта">
+            <div class="luxe-gallery__topbar">
+                <div class="luxe-gallery__eyebrow">LUXE+ Gallery</div>
+                <div class="luxe-gallery__counter">
+                    <span id="luxeGalleryCurrent">1</span>
+                    <span class="luxe-gallery__counter-separator">/</span>
+                    <span id="luxeGalleryTotal">1</span>
+                </div>
+            </div>
+
+            <button type="button" class="luxe-gallery__close" id="luxeGalleryClose" aria-label="Закрыть галерею">
+                <span></span>
+                <span></span>
+            </button>
+
+            <button type="button" class="luxe-gallery__nav luxe-gallery__nav--prev" id="luxeGalleryPrev"
+                aria-label="Предыдущее изображение">
+                &#10094;
+            </button>
+
+            <div class="luxe-gallery__viewport" id="luxeGalleryViewport">
+                <div class="luxe-gallery__image-wrap">
+                    <img id="luxeGalleryImage" src="" alt="Gallery preview">
+                </div>
+            </div>
+
+            <button type="button" class="luxe-gallery__nav luxe-gallery__nav--next" id="luxeGalleryNext"
+                aria-label="Следующее изображение">
+                &#10095;
+            </button>
+
+            <div class="luxe-gallery__thumbs" id="luxeGalleryThumbs" aria-label="Миниатюры галереи"></div>
+        </div>
+    </div>
+
+    <div class="video-lightbox" id="videoLightbox">
+        <button type="button" class="video-lightbox__close" id="videoLightboxClose"
+            aria-label="Закрыть видео">&times;</button>
+        <button type="button" class="video-lightbox__nav video-lightbox__nav--prev" id="videoLightboxPrev"
+            aria-label="Предыдущее видео">&#10094;</button>
+
+        <div class="video-lightbox__content">
+            <video id="lightboxVideo" controls playsinline></video>
+        </div>
+
+        <button type="button" class="video-lightbox__nav video-lightbox__nav--next" id="videoLightboxNext"
+            aria-label="Следующее видео">&#10095;</button>
+
+        <div class="video-lightbox__counter">
+            <span id="currentVideoSlide">1</span> / <span id="totalVideoSlides">1</span>
+        </div>
+    </div>
+
+    <div class="floating-contact" id="floatingContact">
+        <div class="floating-contact-menu">
+            <a href="https://wa.me/996552886066" target="_blank" class="floating-contact-link">
+                <svg viewBox="0 0 32 32" fill="currentColor">
+                    <path
+                        d="M16.01 3.2c-7.07 0-12.8 5.73-12.8 12.8 0 2.26.59 4.47 1.72 6.41L3.2 28.8l6.57-1.72a12.74 12.74 0 0 0 6.24 1.6h.01c7.07 0 12.8-5.73 12.8-12.8 0-3.43-1.34-6.65-3.77-9.07A12.73 12.73 0 0 0 16.01 3.2zm0 23.34h-.01a10.52 10.52 0 0 1-5.36-1.48l-.39-.23-3.9 1.02 1.04-3.8-.25-.39a10.56 10.56 0 0 1-1.63-5.64c0-5.86 4.77-10.63 10.64-10.63 2.84 0 5.51 1.11 7.52 3.12a10.56 10.56 0 0 1 3.12 7.51c0 5.86-4.77 10.63-10.63 10.63zm5.83-7.96c-.32-.16-1.89-.93-2.18-1.03-.29-.11-.5-.16-.71.16-.21.32-.81 1.03-.99 1.24-.18.21-.36.24-.68.08-.32-.16-1.35-.5-2.57-1.6-.95-.84-1.59-1.88-1.78-2.2-.18-.32-.02-.49.14-.65.14-.14.32-.36.48-.54.16-.18.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.71-1.71-.97-2.34-.25-.61-.51-.53-.71-.54h-.6c-.21 0-.56.08-.85.4-.29.32-1.11 1.08-1.11 2.63 0 1.55 1.14 3.05 1.3 3.26.16.21 2.25 3.43 5.46 4.81.76.33 1.35.53 1.81.68.76.24 1.45.21 2 .13.61-.09 1.89-.77 2.16-1.52.27-.75.27-1.39.19-1.52-.08-.13-.29-.21-.61-.37z" />
+                </svg>
+            </a>
+
+            <a href="https://t.me/+996779519331" target="_blank" class="floating-contact-link" aria-label="Telegram">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M21.94 4.66c.15-.68-.52-1.24-1.14-.96L2.93 10.76c-.73.29-.69 1.34.06 1.57l4.54 1.42 1.76 5.49c.22.69 1.1.87 1.57.32l2.54-2.95 4.99 3.67c.61.45 1.48.11 1.63-.63l1.92-15zM9.15 13.32l8.8-5.56-6.92 6.84-.27 2.96-1.61-4.24z" />
+                </svg>
+            </a>
+
+            <a href="tel:+996552886066" class="floating-contact-link" aria-label="Phone">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.85 21 3 13.15 3 3c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                </svg>
+            </a>
+        </div>
+
+        <button class="floating-contact-toggle" id="floatingContactToggle" aria-label="Открыть контакты">
+            <svg class="toggle-phone-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.85 21 3 13.15 3 3c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+            </svg>
+            <span class="toggle-close">✕</span>
+        </button>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
