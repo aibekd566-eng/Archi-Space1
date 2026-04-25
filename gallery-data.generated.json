@@ -1,0 +1,828 @@
+﻿{
+    "living":  [
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View010001.jpg",
+                       "alt":  "Кухня-гостиная 1"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View020001.jpg",
+                       "alt":  "Кухня-гостиная 2"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View030001.jpg",
+                       "alt":  "Кухня-гостиная 3"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View040001.jpg",
+                       "alt":  "Кухня-гостиная 4"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View050001.jpg",
+                       "alt":  "Кухня-гостиная 5"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View06.jpg",
+                       "alt":  "Кухня-гостиная 6"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View07.jpg",
+                       "alt":  "Кухня-гостиная 7"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View08.jpg",
+                       "alt":  "Кухня-гостиная 8"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View09.jpg",
+                       "alt":  "Кухня-гостиная 9"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View10.jpg",
+                       "alt":  "Кухня-гостиная 10"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View11.jpg",
+                       "alt":  "Кухня-гостиная 11"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View120001.jpg",
+                       "alt":  "Кухня-гостиная 12"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/GostKitchen_View13.jpg",
+                       "alt":  "Кухня-гостиная 13"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-01.jpg",
+                       "alt":  "Кухня-гостиная 14"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-02.jpg",
+                       "alt":  "Кухня-гостиная 15"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-03.jpg",
+                       "alt":  "Кухня-гостиная 16"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-04.jpg",
+                       "alt":  "Кухня-гостиная 17"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-05.jpg",
+                       "alt":  "Кухня-гостиная 18"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-06.jpg",
+                       "alt":  "Кухня-гостиная 19"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-07.jpg",
+                       "alt":  "Кухня-гостиная 20"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-08.jpg",
+                       "alt":  "Кухня-гостиная 21"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-09.jpg",
+                       "alt":  "Кухня-гостиная 22"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-10.jpg",
+                       "alt":  "Кухня-гостиная 23"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-11.jpg",
+                       "alt":  "Кухня-гостиная 24"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-12.jpg",
+                       "alt":  "Кухня-гостиная 25"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-13.jpg",
+                       "alt":  "Кухня-гостиная 26"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-14.jpg",
+                       "alt":  "Кухня-гостиная 27"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-15.jpg",
+                       "alt":  "Кухня-гостиная 28"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-16.jpg",
+                       "alt":  "Кухня-гостиная 29"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-17.jpg",
+                       "alt":  "Кухня-гостиная 30"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-18.jpg",
+                       "alt":  "Кухня-гостиная 31"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-19.jpg",
+                       "alt":  "Кухня-гостиная 32"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-20.jpg",
+                       "alt":  "Кухня-гостиная 33"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-21.jpg",
+                       "alt":  "Кухня-гостиная 34"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-22.jpg",
+                       "alt":  "Кухня-гостиная 35"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-23.jpg",
+                       "alt":  "Кухня-гостиная 36"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-24.jpg",
+                       "alt":  "Кухня-гостиная 37"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-25.jpg",
+                       "alt":  "Кухня-гостиная 38"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-26.jpg",
+                       "alt":  "Кухня-гостиная 39"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-27.jpg",
+                       "alt":  "Кухня-гостиная 40"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-28.jpg",
+                       "alt":  "Кухня-гостиная 41"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-29.jpg",
+                       "alt":  "Кухня-гостиная 42"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-30.jpg",
+                       "alt":  "Кухня-гостиная 43"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-31.jpg",
+                       "alt":  "Кухня-гостиная 44"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-32.jpg",
+                       "alt":  "Кухня-гостиная 45"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-33.jpg",
+                       "alt":  "Кухня-гостиная 46"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-34.jpg",
+                       "alt":  "Кухня-гостиная 47"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-35.jpg",
+                       "alt":  "Кухня-гостиная 48"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-36.jpg",
+                       "alt":  "Кухня-гостиная 49"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-37.jpg",
+                       "alt":  "Кухня-гостиная 50"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-38.jpg",
+                       "alt":  "Кухня-гостиная 51"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-39.jpg",
+                       "alt":  "Кухня-гостиная 52"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-40.jpg",
+                       "alt":  "Кухня-гостиная 53"
+                   },
+                   {
+                       "src":  "portfolio/kitchen-living/new-2026/living-new-41.jpg",
+                       "alt":  "Кухня-гостиная 54"
+                   }
+               ],
+    "bathroom":  [
+                     {
+                         "src":  "portfolio/bathroom/duw01.jpg",
+                         "alt":  "Санузлы 1"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/duw02.jpg",
+                         "alt":  "Санузлы 2"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/duw03.jpg",
+                         "alt":  "Санузлы 3"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/duw04.jpg",
+                         "alt":  "Санузлы 4"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/duw05.jpg",
+                         "alt":  "Санузлы 5"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/duw06.jpg",
+                         "alt":  "Санузлы 6"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-01.jpg",
+                         "alt":  "Санузлы 7"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-02.jpg",
+                         "alt":  "Санузлы 8"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-03.jpg",
+                         "alt":  "Санузлы 9"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-04.jpg",
+                         "alt":  "Санузлы 10"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-05.jpg",
+                         "alt":  "Санузлы 11"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-06.jpg",
+                         "alt":  "Санузлы 12"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-07.jpg",
+                         "alt":  "Санузлы 13"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-08.jpg",
+                         "alt":  "Санузлы 14"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-09.jpg",
+                         "alt":  "Санузлы 15"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-10.jpg",
+                         "alt":  "Санузлы 16"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-11.jpg",
+                         "alt":  "Санузлы 17"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-12.jpg",
+                         "alt":  "Санузлы 18"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-13.jpg",
+                         "alt":  "Санузлы 19"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-14.jpg",
+                         "alt":  "Санузлы 20"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-15.jpg",
+                         "alt":  "Санузлы 21"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-16.jpg",
+                         "alt":  "Санузлы 22"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-17.jpg",
+                         "alt":  "Санузлы 23"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-18.jpg",
+                         "alt":  "Санузлы 24"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-19.jpg",
+                         "alt":  "Санузлы 25"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-20.jpg",
+                         "alt":  "Санузлы 26"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-21.jpg",
+                         "alt":  "Санузлы 27"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-22.jpg",
+                         "alt":  "Санузлы 28"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/new-2026/bathroom-new-23.jpg",
+                         "alt":  "Санузлы 29"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/vanna01.jpg",
+                         "alt":  "Санузлы 30"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/vanna02.jpg",
+                         "alt":  "Санузлы 31"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/vanna03.jpg",
+                         "alt":  "Санузлы 32"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/vanna04.jpg",
+                         "alt":  "Санузлы 33"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/vanna05.jpg",
+                         "alt":  "Санузлы 34"
+                     },
+                     {
+                         "src":  "portfolio/bathroom/vanna06.jpg",
+                         "alt":  "Санузлы 35"
+                     }
+                 ],
+    "bedroom":  [
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View010000.jpg",
+                        "alt":  "Спальни 1"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View02.jpg",
+                        "alt":  "Спальни 2"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View03.jpg",
+                        "alt":  "Спальни 3"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View04.jpg",
+                        "alt":  "Спальни 4"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View05.jpg",
+                        "alt":  "Спальни 5"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View06.jpg",
+                        "alt":  "Спальни 6"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View07.jpg",
+                        "alt":  "Спальни 7"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View08.jpg",
+                        "alt":  "Спальни 8"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View09.jpg",
+                        "alt":  "Спальни 9"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View10.jpg",
+                        "alt":  "Спальни 10"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View11.jpg",
+                        "alt":  "Спальни 11"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View12.jpg",
+                        "alt":  "Спальни 12"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/Bedroom_View13.jpg",
+                        "alt":  "Спальни 13"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-01.jpg",
+                        "alt":  "Спальни 14"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-02.jpg",
+                        "alt":  "Спальни 15"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-03.jpg",
+                        "alt":  "Спальни 16"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-04.jpg",
+                        "alt":  "Спальни 17"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-05.jpg",
+                        "alt":  "Спальни 18"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-06.jpg",
+                        "alt":  "Спальни 19"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-07.jpg",
+                        "alt":  "Спальни 20"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-08.jpg",
+                        "alt":  "Спальни 21"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-09.jpg",
+                        "alt":  "Спальни 22"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-10.jpg",
+                        "alt":  "Спальни 23"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-11.jpg",
+                        "alt":  "Спальни 24"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-12.jpg",
+                        "alt":  "Спальни 25"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-13.jpg",
+                        "alt":  "Спальни 26"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-14.jpg",
+                        "alt":  "Спальни 27"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-15.jpg",
+                        "alt":  "Спальни 28"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-16.jpg",
+                        "alt":  "Спальни 29"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-17.jpg",
+                        "alt":  "Спальни 30"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-18.jpg",
+                        "alt":  "Спальни 31"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-19.jpg",
+                        "alt":  "Спальни 32"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-20.jpg",
+                        "alt":  "Спальни 33"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-21.jpg",
+                        "alt":  "Спальни 34"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-22.jpg",
+                        "alt":  "Спальни 35"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-23.jpg",
+                        "alt":  "Спальни 36"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-24.jpg",
+                        "alt":  "Спальни 37"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-25.jpg",
+                        "alt":  "Спальни 38"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-26.jpg",
+                        "alt":  "Спальни 39"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-27.jpg",
+                        "alt":  "Спальни 40"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-28.jpg",
+                        "alt":  "Спальни 41"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-29.jpg",
+                        "alt":  "Спальни 42"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-30.jpg",
+                        "alt":  "Спальни 43"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-31.jpg",
+                        "alt":  "Спальни 44"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-32.jpg",
+                        "alt":  "Спальни 45"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-33.jpg",
+                        "alt":  "Спальни 46"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-34.jpg",
+                        "alt":  "Спальни 47"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-35.jpg",
+                        "alt":  "Спальни 48"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-36.jpg",
+                        "alt":  "Спальни 49"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-37.jpg",
+                        "alt":  "Спальни 50"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-38.jpg",
+                        "alt":  "Спальни 51"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-39.jpg",
+                        "alt":  "Спальни 52"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-40.jpg",
+                        "alt":  "Спальни 53"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-41.jpg",
+                        "alt":  "Спальни 54"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-42.jpg",
+                        "alt":  "Спальни 55"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-43.jpg",
+                        "alt":  "Спальни 56"
+                    },
+                    {
+                        "src":  "portfolio/Bedroom/new-2026/bedroom-new-44.jpg",
+                        "alt":  "Спальни 57"
+                    }
+                ],
+    "hallway":  [
+                    {
+                        "src":  "portfolio/Hallway/Hallway_View01.jpg",
+                        "alt":  "Прихожие 1"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/Hallway_View02.jpg",
+                        "alt":  "Прихожие 2"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/Hallway_View03.jpg",
+                        "alt":  "Прихожие 3"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/Hallway_View04.jpg",
+                        "alt":  "Прихожие 4"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/Hallway_View05.jpg",
+                        "alt":  "Прихожие 5"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/Hallway_View06.jpg",
+                        "alt":  "Прихожие 6"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/Hallway_View07.jpg",
+                        "alt":  "Прихожие 7"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/Hallway_View08.jpg",
+                        "alt":  "Прихожие 8"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/Hallway_View09.jpg",
+                        "alt":  "Прихожие 9"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-01.jpg",
+                        "alt":  "Прихожие 10"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-02.jpg",
+                        "alt":  "Прихожие 11"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-03.jpg",
+                        "alt":  "Прихожие 12"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-04.jpg",
+                        "alt":  "Прихожие 13"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-05.jpg",
+                        "alt":  "Прихожие 14"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-06.jpg",
+                        "alt":  "Прихожие 15"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-07.jpg",
+                        "alt":  "Прихожие 16"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-08.jpg",
+                        "alt":  "Прихожие 17"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-09.jpg",
+                        "alt":  "Прихожие 18"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-10.jpg",
+                        "alt":  "Прихожие 19"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-11.jpg",
+                        "alt":  "Прихожие 20"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-12.jpg",
+                        "alt":  "Прихожие 21"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-13.jpg",
+                        "alt":  "Прихожие 22"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-14.jpg",
+                        "alt":  "Прихожие 23"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-15.jpg",
+                        "alt":  "Прихожие 24"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-16.jpg",
+                        "alt":  "Прихожие 25"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-17.jpg",
+                        "alt":  "Прихожие 26"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-18.jpg",
+                        "alt":  "Прихожие 27"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-19.jpg",
+                        "alt":  "Прихожие 28"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-20.jpg",
+                        "alt":  "Прихожие 29"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-21.jpg",
+                        "alt":  "Прихожие 30"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-22.jpg",
+                        "alt":  "Прихожие 31"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-23.jpg",
+                        "alt":  "Прихожие 32"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-24.jpg",
+                        "alt":  "Прихожие 33"
+                    },
+                    {
+                        "src":  "portfolio/Hallway/new-2026/hallway-new-25.jpg",
+                        "alt":  "Прихожие 34"
+                    }
+                ],
+    "kids":  [
+                 {
+                     "src":  "portfolio/kids/Childroom_View01.jpg",
+                     "alt":  "Детская 1"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View02.jpg",
+                     "alt":  "Детская 2"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View03.jpg",
+                     "alt":  "Детская 3"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View04.jpg",
+                     "alt":  "Детская 4"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View05.jpg",
+                     "alt":  "Детская 5"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View06.jpg",
+                     "alt":  "Детская 6"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View07.jpg",
+                     "alt":  "Детская 7"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View08.jpg",
+                     "alt":  "Детская 8"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View09.jpg",
+                     "alt":  "Детская 9"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View10.jpg",
+                     "alt":  "Детская 10"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View11.jpg",
+                     "alt":  "Детская 11"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View12.jpg",
+                     "alt":  "Детская 12"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View130001.jpg",
+                     "alt":  "Детская 13"
+                 },
+                 {
+                     "src":  "portfolio/kids/Childroom_View140001.jpg",
+                     "alt":  "Детская 14"
+                 },
+                 {
+                     "src":  "portfolio/kids/new-2026/kids-new-01.jpg",
+                     "alt":  "Детская 15"
+                 },
+                 {
+                     "src":  "portfolio/kids/new-2026/kids-new-02.jpg",
+                     "alt":  "Детская 16"
+                 },
+                 {
+                     "src":  "portfolio/kids/new-2026/kids-new-03.jpg",
+                     "alt":  "Детская 17"
+                 },
+                 {
+                     "src":  "portfolio/kids/new-2026/kids-new-04.jpg",
+                     "alt":  "Детская 18"
+                 },
+                 {
+                     "src":  "portfolio/kids/new-2026/kids-new-05.jpg",
+                     "alt":  "Детская 19"
+                 },
+                 {
+                     "src":  "portfolio/kids/new-2026/kids-new-06.jpg",
+                     "alt":  "Детская 20"
+                 },
+                 {
+                     "src":  "portfolio/kids/new-2026/kids-new-07.jpg",
+                     "alt":  "Детская 21"
+                 },
+                 {
+                     "src":  "portfolio/kids/new-2026/kids-new-08.jpg",
+                     "alt":  "Детская 22"
+                 },
+                 {
+                     "src":  "portfolio/kids/new-2026/kids-new-09.jpg",
+                     "alt":  "Детская 23"
+                 },
+                 {
+                     "src":  "portfolio/kids/new-2026/kids-new-10.jpg",
+                     "alt":  "Детская 24"
+                 }
+             ]
+}
