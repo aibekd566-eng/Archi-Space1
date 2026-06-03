@@ -1,0 +1,17 @@
+{
+    "name": "ARCHISPACE",
+    "short_name": "ARCHISPACE",
+    "description": "Студия дизайна интерьера в Бишкеке",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#1b1712",
+    "icons": [
+        {
+            "src": "images/logo.png",
+            "sizes": "591x591",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

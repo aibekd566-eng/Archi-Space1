@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://archispace.kg/</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://archispace.kg/portfolio-living.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://archispace.kg/portfolio-bathroom.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://archispace.kg/portfolio-bedroom.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://archispace.kg/portfolio-hallway.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://archispace.kg/portfolio-wardrobe.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://archispace.kg/portfolio-kids.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://archispace.kg/portfolio-commerce.html</loc>
+        <priority>0.8</priority>
+    </url>
+</urlset>
